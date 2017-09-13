@@ -10,8 +10,16 @@ Pkg.clone(https://github.com/rahulkp220/CutShortURL.jl.git)
 ```
 
 ## Usage
-* Once installed, type ```using CutShortURL```
-* Run ```CutShortURL.cutshorturl(your_url_here)```
+* Once installed, type 
+```julia
+using CutShortURL 
+```
+
+* Simple Run 
+```julia
+CutShortURL.cutshorturl(your_url_here)
+```
+
 
 ## Example
 ```
