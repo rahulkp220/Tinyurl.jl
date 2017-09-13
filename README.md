@@ -1,4 +1,4 @@
-# CutShortURL.jl
+# CutShortURL.jl :sunglasses:
 The simplest URL Shortener for Julia!!
 
 ## Installation
