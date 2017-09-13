@@ -2,7 +2,10 @@
 The simplest URL Shortener for Julia!!
 
 ## Installation
-* Open the Julia REPL and run ```Pkg.clone(https://github.com/rahulkp220/CutShortURL.jl.git)``` . Done!!
+* Inside the Julia REPL, run 
+```julia
+Pkg.clone(https://github.com/rahulkp220/CutShortURL.jl.git)
+```
 
 ## Usage
 * Once installed, type ```using CutShortURL```
@@ -22,6 +25,7 @@ help?> CutShortURL.cutshorturl
 
 # single method taking URL as String
 julia> methods(cutshorturl)
+
 # 1 method for generic function "cutshorturl":
 cutshorturl(url::String) in CutShortURL at /Users/myuser/CutShortURL.jl/src/CutShortURL.jl:8
 ```
