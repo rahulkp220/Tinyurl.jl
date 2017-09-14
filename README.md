@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/rahulkp220/CutShortURL.jl.svg?branch=master)](https://travis-ci.org/rahulkp220/CutShortURL.jl)
+[![codecov.io](http://codecov.io/github/rahulkp220/CutShortURL.jl/coverage.svg?branch=master)](http://codecov.io/github/rahulkp220/CutShortURL.jl?branch=master)
 
 # CutShortURL.jl :sunglasses:
 The simplest URL Shortener for Julia!!
