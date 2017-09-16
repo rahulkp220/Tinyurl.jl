@@ -7,7 +7,7 @@ The simplest URL Shortener for Julia!!
 ## Installation
 * Inside the Julia REPL, run 
 ```julia
-Pkg.clone(https://github.com/rahulkp220/CutShortURL.jl.git)
+Pkg.clone("https://github.com/rahulkp220/CutShortURL.jl.git")
 ```
 
 ## Usage
