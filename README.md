@@ -2,7 +2,7 @@
 [![codecov.io](http://codecov.io/github/rahulkp220/CutShortURL.jl/coverage.svg?branch=master)](http://codecov.io/github/rahulkp220/CutShortURL.jl?branch=master)
 
 # CutShortURL.jl :sunglasses:
-The simplest URL Shortener for Julia!!
+The simplest URL Shortener for Julia!! A Julia wrapper around https://tinyurl.com/
 
 ## Installation
 * Inside the Julia REPL, run 
