@@ -2,8 +2,6 @@
 [![codecov.io](http://codecov.io/github/rahulkp220/Tinyurl.jl/coverage.svg?branch=master)](http://codecov.io/github/rahulkp220/Tinyurl.jl?branch=master)
 
 # Tinyurl.jl :sunglasses:
-The simplest URL Shortener for Julia!! 
-
 A Julia wrapper around https://tinyurl.com/
 
 ## Installation
