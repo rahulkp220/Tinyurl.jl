@@ -1,7 +1,7 @@
-[![Build Status](https://travis-ci.org/rahulkp220/CutShortURL.jl.svg?branch=master)](https://travis-ci.org/rahulkp220/CutShortURL.jl)
-[![codecov.io](http://codecov.io/github/rahulkp220/CutShortURL.jl/coverage.svg?branch=master)](http://codecov.io/github/rahulkp220/CutShortURL.jl?branch=master)
+[![Build Status](https://travis-ci.org/rahulkp220/Tinyurl.jl.svg?branch=master)](https://travis-ci.org/rahulkp220/Tinyurl.jl)
+[![codecov.io](http://codecov.io/github/rahulkp220/Tinyurl.jl/coverage.svg?branch=master)](http://codecov.io/github/rahulkp220/Tinyurl.jl?branch=master)
 
-# CutShortURL.jl :sunglasses:
+# Tinyurl.jl :sunglasses:
 The simplest URL Shortener for Julia!! 
 
 A Julia wrapper around https://tinyurl.com/
@@ -9,30 +9,30 @@ A Julia wrapper around https://tinyurl.com/
 ## Installation
 * Inside the Julia REPL, run 
 ```julia
-Pkg.clone("https://github.com/rahulkp220/CutShortURL.jl.git")
+Pkg.clone("https://github.com/rahulkp220/Tinyurl.jl.git")
 ```
 
 ## Usage
 * Once installed, type and run
 ```julia
-using CutShortURL 
-CutShortURL.cutshorturl(your_url_here)
+using Tinyurl 
+Tinyurl.tinyurl(your_url_here)
 ```
 
 
 ## Example
 ```julia
-julia> using CutShortURL
+julia> using Tinyurl
 
 # dead simple
-julia> CutShortURL.cutshorturl("http://google.com")
+julia> Tinyurl.tinyurl("http://google.com")
 "http://tinyurl.com/2tx"
 
 # hmm, is that even needed? ;-)
-help?> CutShortURL.cutshorturl
+help?> Tinyurl.tinyurl
   Shortens the URL
 
-julia> methods(cutshorturl)
-# 1 method for generic function "cutshorturl":
-cutshorturl(url::String) in CutShortURL at /Users/myuser/CutShortURL.jl/src/CutShortURL.jl:8
+julia> methods(Tinyurl)
+# 1 method for generic function "tinyurl":
+tinyurl(url::String) in CutShortURL at /Users/myuser/Tinyurl.jl/src/Tinyurl.jl:8
 ```
