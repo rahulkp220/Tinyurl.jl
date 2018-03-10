@@ -1,4 +1,4 @@
 using Base.Test
-using CutShortURL
+using Tinyurl
 
-@test CutShortURL.cutshorturl("https://rahulkp220.github.io") == "http://tinyurl.com/ydgk73kx"
+@test Tinyurl.tinyurl("https://rahulkp220.github.io") == "http://tinyurl.com/ydgk73kx"
