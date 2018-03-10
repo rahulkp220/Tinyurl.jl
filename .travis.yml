@@ -2,6 +2,6 @@ language: julia
 julia:
     - 0.6
 script:
-    - julia -e 'Pkg.clone(pwd()); Pkg.build("CutShortURL"); Pkg.test("CutShortURL"; coverage=true)';
+    - julia -e 'Pkg.clone(pwd()); Pkg.build("Tinyurl"); Pkg.test("Tinyurl"; coverage=true)';
 after_success:
-    - julia -e 'cd(Pkg.dir("CutShortURL")); Pkg.add("Coverage"); using Coverage; Codecov.submit(process_folder())';
+    - julia -e 'cd(Pkg.dir("Tinyurl")); Pkg.add("Coverage"); using Coverage; Codecov.submit(process_folder())';
