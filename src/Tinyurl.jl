@@ -1,4 +1,4 @@
-module CutShortURL
+module Tinyurl
 
 # Dependencies
 using Requests
@@ -7,7 +7,7 @@ using Requests
 """
 Shortens the supplied URL
 """
-function cutshorturl(url::AbstractString)
+function tinyurl(url::AbstractString)
  try
   robject = Requests.get("http://tinyurl.com/api-create.php?url=" * url)
   convert(String, robject.data)
@@ -17,5 +17,5 @@ function cutshorturl(url::AbstractString)
 end
 
 # Export functions to be accessed!
-export cutshorturl
+export tinyurl
 end
