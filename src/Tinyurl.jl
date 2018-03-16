@@ -5,7 +5,9 @@ using Requests
 
 # Function for shortening the urls, using tinyurl service.
 """
-Shortens the supplied URL
+    tinyurl(url::AbstractString)
+
+Shortens the supplied URL.
 """
 function tinyurl(url::AbstractString)
  try
