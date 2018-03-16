@@ -14,7 +14,7 @@ Pkg.clone("https://github.com/rahulkp220/Tinyurl.jl.git")
 * Once installed, type and run
 ```julia
 using Tinyurl 
-Tinyurl.tinyurl(your_url_here)
+tinyurl(your_url_here)
 ```
 
 
@@ -23,11 +23,11 @@ Tinyurl.tinyurl(your_url_here)
 julia> using Tinyurl
 
 # dead simple
-julia> Tinyurl.tinyurl("http://google.com")
+julia> tinyurl("http://google.com")
 "http://tinyurl.com/2tx"
 
 # hmm, is that even needed? ;-)
-help?> Tinyurl.tinyurl
+help?> tinyurl
   Shortens the URL
 
 julia> methods(Tinyurl)
