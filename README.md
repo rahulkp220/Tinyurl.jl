@@ -28,9 +28,9 @@ julia> tinyurl("http://google.com")
 
 # hmm, is that even needed? ;-)
 help?> tinyurl
-  Shortens the URL
+search: tinyurl Tinyurl
 
-julia> methods(Tinyurl)
-# 1 method for generic function "tinyurl":
-tinyurl(url::String) in CutShortURL at /Users/myuser/Tinyurl.jl/src/Tinyurl.jl:8
+  tinyurl(url::AbstractString)
+
+  Shortens the supplied URL.
 ```
