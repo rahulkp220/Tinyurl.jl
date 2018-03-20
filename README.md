@@ -11,9 +11,9 @@
 A Julia wrapper around https://tinyurl.com/
 
 ## Installation
-* Inside the Julia REPL, run 
-```julia
-Pkg.clone("https://github.com/rahulkp220/Tinyurl.jl.git")
+Since Tinyurl is registered in `METADATA.jl`, you can directly install it like,
+```jl
+julia> Pkg.add("Tinyurl")
 ```
 
 ## Usage
